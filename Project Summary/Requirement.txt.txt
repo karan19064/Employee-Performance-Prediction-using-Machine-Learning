@@ -1,0 +1,13 @@
+1.Project Requirement
+
+The objective of this project is to analyze employee performance data and identify the key factors affecting performance. The project aims to:
+
+- Analyze department-wise employee performance.
+
+- Identify the top three factors affecting performance.
+
+- Build machine learning models to predict employee performance.
+
+- Compare different algorithms and select the best-performing model.
+
+- Provide recommendations to improve employee performance.

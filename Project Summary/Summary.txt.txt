@@ -1,0 +1,31 @@
+3. Project Summary
+
+A machine learning solution was developed to predict employee performance using various features such as satisfaction levels, salary hike, experience, and department.
+
+Three models were trained and compared:
+
+-Random Forest
+-Support Vector Machine (SVM)
+-Neural Network
+
+Among these, Random Forest achieved the highest accuracy of 94.58% and provided the best performance across all classes. Therefore, it was selected as the final model.
+---------------------------------------------------------------------------------------------------------------
+
+Top 3 Factors Affecting Performance:
+
+- Environment Satisfaction
+- Last Salary Hike Percent
+- Years Since Last Promotion
+
+---------------------------------------------------------------------------------------------------------------
+Recommendations:
+
+1.Improve workplace environment and employee satisfaction.
+
+2.Provide performance-based salary hikes.
+
+3.Reduce long promotion gaps.
+
+4.Promote work-life balance initiatives.
+
+5.Focus on employee development within roles.

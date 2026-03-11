@@ -1,0 +1,76 @@
+2.Project Analysis
+
+--------------------------------------------------------------------------------------------------------------
+**Data Understanding :**
+
+The dataset contains employee-related attributes such as age, department, job role, salary hike, satisfaction levels, experience, and performance rating.
+
+The target variable is Performance Rating, which represents employee performance levels.
+
+- Total records: 1200 employees
+
+- No missing values were found.
+
+- Dataset contains both categorical and numerical features.
+--------------------------------------------------------------------------------------------------------------
+** Data Preprocessing :**
+
+The following preprocessing steps were performed:
+
+1.Removed unnecessary columns:
+
+-EmpNumber
+-Attrition
+
+2.Encoded categorical variables:
+
+-Gender
+-Department
+-Job Role
+-Marital Status
+-Business Travel
+-Overtime
+
+3.Split the dataset:
+
+-Training set: 80%
+-Testing set: 20%
+
+4.Applied StandardScaler for:
+
+-Support Vector Machine (SVM)
+-Neural Network
+--------------------------------------------------------------------------------------------------------------
+**Exploratory Data Analysis (EDA) :**
+
+Univariate Analysis:
+
+-Most employees fall under performance rating 3.
+-Average employee age is in the mid-30s.
+-Most employees have moderate satisfaction levels.
+
+Bivariate Analysis:
+
+-Higher environment satisfaction leads to higher performance.
+-Employees with higher salary hikes perform better.
+-Overtime does not significantly improve performance.
+
+Multivariate Analysis:
+
+-Top factors affecting performance:
+
+| Rank | Factor                     | Impact   |
+| ---- | -------------------------- | -------- |
+| 1    | Environment Satisfaction   | Strong   |
+| 2    | Last Salary Hike Percent   | Strong   |
+| 3    | Years Since Last Promotion | Moderate |
+--------------------------------------------------------------------------------------------------------------
+**Model Training and Comparison:**
+
+| Model          | Accuracy   |
+| -------------- | ---------- |
+| Random Forest  | **94.58%** |
+| SVM            | 84.17%     |
+| Neural Network | 81.67%     |
+
+
